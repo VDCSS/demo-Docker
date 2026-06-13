@@ -1,0 +1,13 @@
+{
+  "name": "demo-docker",
+  "version": "1.0.0",
+  "description": "Exemplo de aplicação Node.js com PostgreSQL usando Docker Compose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18",
+    "pg": "^8.11"
+  }
+}
