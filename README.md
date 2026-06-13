@@ -7,6 +7,7 @@ Projeto de exemplo para demonstrar o uso de containers em aplicações web reais
 ## Quick Start
 
 ```bash
+# Pré-requisito: Docker e Compose instalados
 git clone https://github.com/VDCSS/demo-Docker.git
 cd demo-Docker
 docker compose up -d --build
