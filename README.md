@@ -4,6 +4,17 @@ Aplicação Node.js + PostgreSQL com Docker Compose.
 
 Projeto de exemplo para demonstrar o uso de containers em aplicações web reais.
 
+## Quick Start
+
+```bash
+git clone https://github.com/VDCSS/demo-Docker.git
+cd demo-Docker
+docker compose up -d --build
+curl http://localhost:3000
+# {"status":"ok","time":"2026-06-13T..."}
+docker compose down -v
+```
+
 ## Pré-requisitos
 
 - [Docker](https://docs.docker.com/engine/install/)
