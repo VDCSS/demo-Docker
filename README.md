@@ -2,7 +2,7 @@
 
 Aplicação Node.js + PostgreSQL com Docker Compose.
 
-Projeto de exemplo para demonstrar o uso de containers em aplicações web reais.
+API Node.js que consulta a hora atual no banco PostgreSQL e retorna em JSON. Duas rotas: `GET /` (hora do banco) e `GET /health` (healthcheck). O Compose orquestra app + db em rede isolada.
 
 ## Quick Start
 
